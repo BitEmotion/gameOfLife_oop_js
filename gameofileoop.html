@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style>
+		body{
+			margin:0;
+			padding:0;
+			box-sizing: border-box;
+		}
+		.flexRow {
+			display: flex;
+			flex-direction: row;	
+		}
+	</style>
+</head>
+<body>
+	<div class="flexRow">
+		<div>
+			<canvas id="canvas" width="400" height="400" style="border:1px solid #000000;">
+		</div>
+		<div>
+			<table id="table"></table>
+			<button id="tableBtn">TableRenderer</button>
+		</div>
+	</div>
+	<button id="canvasBtn">CanvasRenderer</button>
+	<!-- <button id="tableBtn">Table</button>  -->
+	<button id="consoleBtn">ConsoleRenderer</button>
+	<script type="text/javascript" src="./gameofileoop.js"></script>
+</body>
+</html>
