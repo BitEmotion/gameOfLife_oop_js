@@ -41,7 +41,7 @@ let isDebug;
 			console.log(e);
 		}
     };
-    const injectPropDataToThisClass = (target, ...p) => Object.assign(target, ...p);
+    const injectPropDataToThisClass = (target, ...property) => Object.assign(target, ...property);
     const isInstance = (child, parent) => child instanceof parent;
 
 	// Class
