@@ -1,0 +1,13 @@
+{
+    "compilerOptions": {
+        "baseUrl": ".",
+        "outDir": "typescript_src_build",
+        "target": "es6",
+        "module": "commonjs",
+        "lib": ["es2015", "es2017", "dom"]
+    },
+    "include": [
+        "typescript_src/**/*.ts"
+    ],
+    "compileOnSave": false
+}
